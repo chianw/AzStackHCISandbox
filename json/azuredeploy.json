@@ -464,6 +464,11 @@
                         "provisionVmAgent": true
                     }
                 },
+                "priority": "Spot",
+                "evictionPolicy": "Deallocate",
+                "billingProfile": {
+                    "maxPrice": -1
+                },                
                "diagnosticsProfile": {
                     "bootDiagnostics": {
                         "enabled": true
